@@ -7,7 +7,7 @@ from fastapi import FastAPI
 app=FasstAPI()
 
 
-app.get("/")
+@app.get("/")
 
 def root():
     return {"Hello":"World"}
