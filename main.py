@@ -4,10 +4,10 @@
 
 from fastapi import FastAPI
 
-app=FasstAPI()
+app=FastAPI()
 
 
 @app.get("/")
 
 def root():
-    return {"Hello":"World"}
+    return {"Hello": "World"}
